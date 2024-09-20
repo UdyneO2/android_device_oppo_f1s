@@ -1,4 +1,4 @@
-LOCAL_PATH := device/meizu/m3s
+LOCAL_PATH := device/oppo/f1s
 
 # Inherit from the proprietary version
 -include vendor/meizu/m3s/BoardConfigVendor.mk

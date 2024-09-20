@@ -1,15 +1,15 @@
-# android_device_meizu_m3s
-Device repository for Meizu M3s (CyanogenMod)
+# android_device_oppo_f1s
+Device repository for Oppo f1s (CyanogenMod)
 
 Install
 -----------
 
-1. Clone https://github.com/washinson/android_device_meizu_m3_m3s-common/tree/cm12.1 into **device/meizu/m3_m3s-common**
+1. Clone [https://github.com/UdyneO2/android_device_oppo_f1s/] into **device/oppo/f1_f1s-common**
 
 2. Apply patches
 
 ```
-cd device/meizu/m3_m3s-common/patches
+cd device/oppo/f1_f1s-common/patches
 bash apply.sh
 ``` 
 
@@ -17,38 +17,9 @@ bash apply.sh
 
 ```
 . build/envsetup.sh
-lunch cm_m3s-userdebug
+lunch cm_f1s-userdebug
 mka bacon
 ```
-
-# Changelog:
-## v0.8.3
-Many changes
-- USB
-- charge only
-- MTP default
-- A2DP fix
-- Tethering fix
-- VPN fix
-- etc
-
-## v0.7
-- Ril fix
-- Bug fixing
-
-## v0.6
-- Home wakeup
-- Long home menu
-
-## v0.5
-- Camera Fix
-
-## v0.4
-- Dualsim support
-- Added media codecs
-
-## v0.3
-- Ril fixed (Only 1 sim, 2 sim will added in next release)
-
 ## v0.2
 - Full rebase device tree
+- Beta test
